@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="game-board">
+    <div id="Over">
+      Game Hover ❌❌❌❌🚨
+    </div>
+    <button id="reset">
+      
+    </button>
+    <img src="/pipe.png" id="pipe">
+    <img src="/clouds.png" id="clouds">
+    <img src="clouds.png" id="cloud_1">
+    <audio src="/audio1.aac" id="go"></audio>
+    <img src="/mario.gif" id="mario">
+  </div>
+  <button onclick="jump()" id="pular">
+    
+  </button>
+  <script src="main.js"></script>
+  <style>
+    #pular {
+      z-index: 5;
+      background-color: #83532C;
+      position: fixed;
+      height: 100vh;
+      width: 100%;
+      border-top: 7px solid darkgreen;
+    }
+  </style>
+</body>
+</html>
